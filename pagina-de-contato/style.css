@@ -1,0 +1,13 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(43, 43, 134);
+}
+.contato{
+    background-color: white;
+    border-radius: 3px;
+    padding: 60px;
+}
+input{
+    margin-bottom: 10px;
+}
