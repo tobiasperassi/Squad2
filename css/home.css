@@ -1,0 +1,208 @@
+/*Fonte do título*/
+.yusei-magic-regular {
+    font-family: "Yusei Magic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+/*Fonte dos parágrafos*/
+.merriweather {
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-variation-settings:
+      "wdth" 100;
+  }
+
+/* Resetando estilos padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Corpo */
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    background-image: url("../imagens/fundocerto.jpeg");
+    background-size:auto;
+}
+
+/* Cabeçalho */
+header {
+    padding: 5px;
+    text-align: center;
+}
+
+.cabecalho h1 {
+    color: #fff;
+    font-size: 24px;
+}
+
+.cabecalho img {
+    width: 80px;
+    height: auto;
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    padding-right: 50px;
+    padding-left: 50px;
+    font-family:"Merriweather", serif;
+}
+
+/* Seção principal */
+.main-section {
+    text-align: center;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.main-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: white;
+    text-align: justify;
+    font-family:"Sans serif";
+}
+
+/* Sobre Nós */
+.sobrenos {
+    text-align: center;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+}
+
+.sobrenos h2 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+p{
+    color: white;
+}
+/* Redes Sociais */
+.redes-sociais {
+    text-align: center;
+    padding: 20px;
+}
+
+.redes-sociais ul {
+    list-style: none;
+}
+
+.redes-sociais ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.redes-sociais ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.rodape a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.logoetitulo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+#logo{
+    height: 30px;
+    width: 30px;
+    margin-top: 4px;
+}
+h1{
+    padding-left: 10px;
+    font-family: "Yusei Magic", sans-serif;
+    text-align: center;
+}
+#fotoservico{
+    width: 600px;
+    height: 350px;
+    margin-top:none;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+.cursos{
+    color: white;
+}
+.c1,.c2{
+    text-align: center;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    width: 400px;
+    text-align: justify;
+}
+.c1{
+    margin-left: 200px;
+}
+.c2{
+    margin-right: 200px;
+}
+.bloco1, .bloco2{
+    display: flex;
+    flex-direction: row;
+}
+h2{
+    font-family: "Yusei Magic", sans-serif;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-family: "sans-serif";
+    font-size: 18px;
+    line-height: 1.6;
+}
+#homelink{
+    text-decoration: none;
+}
+#homelink:hover{
+    text-decoration: none;
+}
+ul{
+    font-family: "Sans serif";
+}
+   
