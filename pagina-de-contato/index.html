@@ -34,8 +34,13 @@
             <label>
                 <input type="checkbox" name="aceito" value="sim"> Eu aceito a <a href="politica.html">Política de privacidade</a>
             </label><br>
-            <button type="submit"> Enviar</button>     
+            <button type="submit" id="enviar"> Enviar</button>     
         </div>
     </div>
+    <script>
+        document.getElementById("enviar").addEventListener("click", function() {
+            window.location.href = window.location.href;
+        });
+    </script>
 </body>
 </html>
