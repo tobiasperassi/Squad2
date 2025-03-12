@@ -1,0 +1,105 @@
+/* Reset básico */
+body {
+    background-image: url(../imagens/fundo-contato.jpeg);
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.contato {
+    width: 400px;
+    background: rgba(255, 255, 255, 0.1); /* Fundo semi-transparente */
+    backdrop-filter: blur(10px); /* Efeito de desfoque */
+    -webkit-backdrop-filter: blur(10px); /* Compatibilidade com Safari */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px;
+    width: 400px;
+
+    
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* Campos de entrada */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+    width: 94%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background: transparent; /* Remove a cor de fundo */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Borda sutil */
+    padding: 10px;
+    color: white; /* Cor do texto */
+    font-size: 16px;
+    border-radius: 20px; /* Bordas arredondadas */
+    outline: none; /* Remove o contorno ao focar */
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    margin-right: 8px;
+}
+
+/* Botão de envio */
+button {
+    margin-top: 30px;
+    width: 100%;
+    background: transparent;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 20px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    transition: 0.5s;
+}
+
+button:hover {
+    background-color: #4a50a1;
+}
+
+/* Links */
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.campo-nome {
+    width: 48%; /* Para garantir que caibam lado a lado */
+}
+
+.campo-nome input {
+    width: 100%; /* Para ocupar toda a largura do contêiner */
+}
+
+label{
+    color: white;
+}
+
+.primeiro-nome{
+    display: flex;
+    flex-direction: row;
+}
+.ultimo-nome{
+    display: flex;
+}

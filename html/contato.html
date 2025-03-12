@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/contato.css">
+    <title>Contato</title>
+</head>
+<body>
+    <div class="contato">
+        <h1>Agende sua visita em nossa faculdade</h1>
+        <div class="nome">
+            <div class="primeiro-nome">
+                <label for="primeiro-nome" style="padding-right: 105px;">Primeiro nome </label>
+                <label for="ultimo-nome">Último nome </label>
+            </div>
+            <div class="ultimo-nome">
+                <input type="text" id="caixa-nome" name="primeiro-nome" style="margin-right: 30px;">
+                <input type="text" id="caixa-nome" name="ultimo-nome">
+            </div>
+        </div>
+
+        <div class="email">
+            <label for="email">Endereço de email </label>
+            <input type="text" id="email" name="email">
+        </div>
+
+        <div class="telefone">
+            <label for="telefone">Número de telefone </label>
+            <input type="text" id="telefone" name="telefone">
+        </div>
+
+        <div class="politica-privacidade">
+            <label>
+                <input type="checkbox" name="aceito" value="sim"> Eu aceito a <a href="politica.html">Política de privacidade</a>
+            </label><br>
+            <button type="submit" id="enviar"> Enviar</button>     
+        </div>
+    </div>
+    <script>
+        document.getElementById("enviar").addEventListener("click", function() {
+            window.location.href = window.location.href;
+        });
+    </script>
+</body>
+</html>
